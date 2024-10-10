@@ -20,7 +20,7 @@ tests/lifecycle/test_prefect.py::TestPrefect::test_prefect_flow PASSED   [100%]
 =================================== FAILURES ===================================
 ________________________ TestPrefect.test_prefect_tasks ________________________
 
-self = <tests.lifecycle.test_prefect.TestPrefect object at 0x7f59e8662f50>
+self = <tests.lifecycle.test_prefect.TestPrefect object at 0x7f3e3f16af80>
 
     def test_prefect_tasks(self):
         """
@@ -34,4 +34,4 @@ E       NameError: name 're_train' is not defined
 tests/lifecycle/test_prefect.py:32: NameError
 =========================== short test summary info ============================
 FAILED tests/lifecycle/test_prefect.py::TestPrefect::test_prefect_tasks - Nam...
-========================= 1 failed, 9 passed in 4.19s ==========================
+========================= 1 failed, 9 passed in 4.05s ==========================
